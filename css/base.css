@@ -1,0 +1,69 @@
+.poa{position: absolute}
+.por{position: relative}
+.pof{position: fixed}
+
+.fl{float: left}
+.fr{float: right}
+.cb{clear:both}
+
+.zi1{z-index: 1;}
+
+.tac{text-align: center}
+.tal{text-align: left}
+.tar{text-align: right}
+
+.dn{display: none}
+.db{display: block}
+.dib{display: inline-block}
+
+.oh{overflow: hidden}
+.ovxh{overflow-x: hidden}
+.ovyh{overflow-y: hidden}
+.ovxa{overflow-x: auto}
+.ovya{overflow-y: auto}
+
+.resno{resize:none}
+.bodno{border:none}
+.bgn{background: none}
+
+
+.fwb{font-weight: bold}
+.fsn{font-style: normal}
+
+.yh{font-family:'microsoft yahei'}
+.cpp{cursor: pointer}
+.wb {word-break: break-all}
+.ma{margin: 0 auto}
+.bcc{border-collapse: collapse}
+.tdl{text-decoration: underline}
+.tdn{text-decoration:none;}
+.ls1{letter-spacing:1px}
+.nowrap{white-space:nowrap;}
+
+.fz12{font-size: 12px}
+.fz13{font-size: 13px}
+.fz14{font-size: 14px}
+.fz15{font-size: 15px}
+.fz16{font-size: 16px}
+.fz17{font-size: 17px}
+.fz18{font-size: 18px}
+.fz19{font-size: 19px}
+.fz20{font-size: 20px}
+
+.t0{top: 0}
+.b0{bottom: 0}
+.l0{left: 0}
+.r0{right: 0}
+
+.w100p{width: 100%}
+.bdrs5{border-radius: 5px}
+.bdrs10{border-radius: 10px}
+
+
+
+
+
+
+
+
+

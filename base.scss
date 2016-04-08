@@ -1,0 +1,26 @@
+@mixin sz($sQuery,$w,$h){
+	#{$sQuery}{
+		width: #{$w}px;
+		height: #{$h}px;
+	}
+}
+@mixin ma($sQuery,$top,$left){
+	#{$sQuery}{
+		margin: #{$top}px 0 0 #{$left}px;
+	}
+}
+@mixin bgi($sQuery,$bg){
+	#{$sQuery}{
+		background: #{$bg} no-repeat;
+	}
+}
+@mixin bgc($sQuery,$corlor){
+	#{$sQuery}{
+		background-color: #{$corlor};
+	}
+}
+
+@include sz('.test-sz',100,100);
+@include ma('.test-ma',100,100);
+@include bgc('.test-bgc',#ccc);
+
