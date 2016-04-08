@@ -28,10 +28,17 @@
 		margin: #{$t}px 0 0 #{$l}px;
 	}	
 }
+@mixin whbgc($sQuery,$w,$h,$bgc){
+	#{$sQuery}{
+		width: #{$w}px;
+		height: #{$h}px;
+		background: url(#{$bgc}) no-repeat;
+	}	
+}
 
 @include sz('.test-sz',100,100);
 @include ma('.test-ma',100,100);
 @include bgc('.test-bgc',#ccc);
 
 @include w-h-ma('.test2',100,50,20,20);
-
+@include whbgc('.test3',100,100,'http://www.gmresstatic.com/img/events/2016/04/hot0414/nav1-pop.png');
