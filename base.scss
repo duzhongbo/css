@@ -20,7 +20,18 @@
 	}
 }
 
+
+@mixin w-h-ma($sQuery,$w,$h,$t,$l){
+	#{$sQuery}{
+		width: #{$w}px;
+		height: #{$h}px;
+		margin: #{$t}px 0 0 #{$l}px;
+	}	
+}
+
 @include sz('.test-sz',100,100);
 @include ma('.test-ma',100,100);
 @include bgc('.test-bgc',#ccc);
+
+@include w-h-ma('.test2',100,50,20,20);
 
